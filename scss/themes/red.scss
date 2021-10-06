@@ -1,0 +1,64 @@
+.red-theme {
+    background-color: #DB0740;
+    background-image: url('/assets/images/red-bg.png');
+    header {
+        background-color: #CC073C;
+        ul {
+            li {
+                a {
+                    color: #001A30;
+                    &.selected {
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+    }
+    main {
+        h1 {
+            color: #FFFFFF;
+        }
+        .date {
+            color: #001A30;
+        }
+        .copy, .copy p {
+            color: #FFFFFF;
+            font-weight: inherit;
+
+            font-weight: 500;
+        }
+        .buy-btn {
+            background-color: #001A30;
+            border: 2px solid #001A30;
+
+            color: #fff;
+    
+            i, svg {
+                color: #fff;
+            }
+
+            &:hover {
+                background-color: #002A4D;
+                border: 2px solid #002A4D;
+            }
+
+            &:focus, &:active {
+                background: transparent;
+                border: 2px solid #061A2E;
+                color: #ffffff;
+                outline: none;
+                i, svg {
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+
+    .mobile-menu-btn {
+        &::before, 
+        .middle,
+        &::after {
+            background: #ffffff;
+        } 
+    }
+}

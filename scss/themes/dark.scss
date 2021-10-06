@@ -1,0 +1,64 @@
+.dark-theme {
+    background-color: #001A30;
+    background-image: url('/assets/images/dark-bg.png');
+    header {
+        background-color: #041322;
+        ul {
+            li {
+                a {
+                    color: #ffffff;
+                    &.selected {
+                        color: #DB0740;
+                    }
+                }
+            }
+        }
+    }
+    main {
+        h1 {
+            color: #DB0740;
+        }
+        .date {
+            color: #FFFFFF;
+        }
+        .copy, .copy p {
+            color: #FFFFFF;
+            font-weight: inherit;
+
+            font-weight: 500;
+        }
+        .buy-btn {
+            background-color: #db0740;
+            border: 2px solid #db0740;
+
+            color: #fff;
+    
+            i, svg {
+                color: #fff;
+            }
+
+            &:hover {
+                background-color: #A70531;
+                border: 2px solid #A70531;
+            }
+
+            &:focus, &:active {
+                background: transparent;
+                border: 2px solid #DA0740;
+                color: #ffffff;
+                outline: none;
+                i, svg {
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+
+    .mobile-menu-btn {
+        &::before, 
+        .middle,
+        &::after {
+            background: #ffffff;
+        } 
+    }
+}
