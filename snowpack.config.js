@@ -16,11 +16,6 @@ module.exports = {
       {
         /* see "Plugin Options" below */
       },
-      '@snowpack/plugin-run-script',
-      {
-        cmd: 'node copyfile.js', // production build command
-        watch: 'node copyfile.js', // (optional) dev server command
-      },
     ],
   ],
   packageOptions: {
