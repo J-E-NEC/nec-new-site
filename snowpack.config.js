@@ -12,6 +12,10 @@ module.exports = {
       {
         /* see options below */
       },
+      '@snowpack/plugin-webpack',
+      {
+        /* see "Plugin Options" below */
+      },
     ],
   ],
   packageOptions: {
