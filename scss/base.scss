@@ -61,4 +61,23 @@ main {
 
         }
     }
+
+    .font-test {
+        span {
+            width: 100px;
+            display: inline-block;
+        }
+        div {
+            padding: 6px 0;
+            font-size: 18px;
+        }
+        .work-sans {
+            font-family: 'Work Sans', sans-serif;
+            border-bottom: 1px solid rgba(#000, 0.5);
+        }
+        .sans-serif {
+            border-top: 1px solid rgba(#000, 0.5);
+            font-family: sans-serif;
+        }
+    }
 }
